@@ -9,14 +9,14 @@ on:
   #schedule:
     #- cron: '25 6 * * *'
   push:
-    branches: [ main, sandbox ]
+    branches: [ version-2 ]
     # Publish semver tags as releases.
     tags: [ 'v*.*.*' ]
     paths-ignore:
       - '**.md'
       - '.github/workflows/*'
   pull_request:
-    branches: [ main ]
+    branches: [ version-2 ]
 
 env:
   # Use docker.io for Docker Hub if empty
