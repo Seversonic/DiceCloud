@@ -3,7 +3,7 @@
 		"name": "Padded Armor",
 		"value": 5,
 		"weight": 8,
-		"description": "Padded armor consists of quilted layers of cloth and batting.",
+		"description": "Padded armor consists of quilted layers of cloth and batting, soft.",
 		"effects": [
 			{
 				"operation": "base",
