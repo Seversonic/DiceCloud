@@ -1,3 +1,6 @@
+Modified for use with docker image
+
+
 DiceCloud
 ========
 
